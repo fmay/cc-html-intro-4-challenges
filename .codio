@@ -1,0 +1,13 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Reset": "echo 'needs to copy back everything to start but requires a heavy confirmation."
+  },
+
+// Preview button configuration
+  "preview": {
+        "Run": "https://{{domain}}/{{index}}"
+  }
+}
