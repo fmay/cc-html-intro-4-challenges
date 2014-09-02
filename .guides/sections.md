@@ -1,4 +1,10 @@
-@annotation:tour assessment
+---
+title: "ASSESS & STRETCH"
+files: []
+editable: true
+layout: ""
+
+---
 #ASSESS & STRETCH
 
 This module is a whole series of challenges that assess your knowledge of HTML and, primarily, CSS. 
@@ -10,7 +16,7 @@ Challenges are broken down into Easy, Medium, Moderate and Brutal. When you sele
 - you will be provided with a skeleton `index.html` file for each test
 - you will be writing your CSS inside `index.html` and skeleton will be there
 
-Once you are finished with a test, you can save the status of your test by selecting 'Save' from the Rocket menu item. If you load another challenge without saving, you will lose your work.
+Once you are finished with a test, you can save the status of your test by selecting 'Save' from the ![](.guides/img/rocket.png) Rocket menu item. If you load another challenge without saving, you will lose your work.
 
 ##Approach
 You can use these tests not just to assess yourself but also to learn. As we have been pointing out in previous modules, coding involves an awful lot of Googling for stuff you don't know. 
@@ -20,6 +26,13 @@ The purpose of this set of tests is not to test you on absolutely everything. If
 
 However, you should really make sure that you can do the easy and moderate tests. The hard and brutal ones can be conquered over time.
 
+---
+title: Easy Challenges
+files: []
+editable: true
+layout: ""
+
+---
 ##Easy Challenges
 
 1. [Colors I]() - this is really easy and is here to help you get the hang of the challenge mechanism.
@@ -32,8 +45,13 @@ However, you should really make sure that you can do the easy and moderate tests
 1. [Margins]() - visually styling some HTML elements using margins.
 1. [Borders]() - putting borders on things.
 1. [Fixed Width]() - make a fixed width design that is centered on the page.
+---
+title: Moderate Challenges
+files: []
+editable: true
+layout: ""
 
-
+---
 ##Moderate Challenges
 1. [2 Columns, fixed width]() - designing a 2 column layout that is page centered.
 1. [2 Columns, variable width]() - a 2 column layout with columns expanding to almost fill the page.
@@ -41,10 +59,12 @@ However, you should really make sure that you can do the easy and moderate tests
 1. [Make the whole div a link]() - we have got a <div> with an image and some text with a link on it. Make the entire <div> clickable.
 1. Web Font
 1. Font Awesome Icons
+---
+title: Hard Challenges
+files: []
+editable: false
+layout: ""
 
-
+---
 ##Hard Challenges
 1. [CSS Button that is fully clickable]() - create a CSS based button where the entire button is clickable, not just the text.
-
-
-
