@@ -5,8 +5,6 @@ editable: true
 layout: ""
 
 ---
-#ASSESS & STRETCH
-
 This module is a whole series of challenges that assess your knowledge of HTML and, primarily, CSS. 
 
 Challenges are broken down into Easy, Medium, Moderate and Brutal. When you select a challenge, the following happens :
@@ -33,8 +31,6 @@ editable: true
 layout: ""
 
 ---
-##Easy Challenges
-
 1. [Colors I]() - this is really easy and is here to help you get the hang of the challenge mechanism.
 1. [Common HTML stuff]() - this just makes sure that you know the common HTML tags and how to style them.
 1. [Common HTML stuff II]() - more of the same but a tad more advanced tags.
@@ -52,7 +48,6 @@ editable: true
 layout: ""
 
 ---
-##Moderate Challenges
 1. [2 Columns, fixed width]() - designing a 2 column layout that is page centered.
 1. [2 Columns, variable width]() - a 2 column layout with columns expanding to almost fill the page.
 1. [What's wrong here?]() - we've got a layout issue that is not quite working. Sort it out!
@@ -66,5 +61,4 @@ editable: false
 layout: ""
 
 ---
-##Hard Challenges
 1. [CSS Button that is fully clickable]() - create a CSS based button where the entire button is clickable, not just the text.
