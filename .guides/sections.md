@@ -2,7 +2,7 @@
 title: "ASSESS YOUR HTML&CSS KNOWLEDGE"
 files: []
 editable: false
-layout: ""
+layout: 2-panels-tree
 
 ---
 #'Forking' this module
