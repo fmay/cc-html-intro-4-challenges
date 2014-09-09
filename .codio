@@ -8,6 +8,6 @@
 
 // Preview button configuration
   "preview": {
-        "Run": "https://{{domain}}/{{index}}"
+        "Preview": "https://{{domain}}/{{index}}"
   }
 }

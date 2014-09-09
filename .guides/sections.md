@@ -46,44 +46,200 @@ editable: true
 layout: ""
 
 ---
-This module is a whole series of challenges that assess your knowledge of HTML and, primarily, CSS. 
+**STATUS** : Incomplete. We are working on this and will shortly be populating it with some proper challenges.
 
-Challenges are broken down into Easy, Medium, Moderate and Brutal. When you select a challenge, the following happens :
+#Fork the project
+If you want to save your work you must fork this project into your own Codio account first. You can do this from the 'Project->Fork' menu item at the top.
 
-- a couple of files will be copied into the root of your workspace file tree
-- you should open `challenge.md` which describes the challenge in details and will often show a video
-- you will be provided with a skeleton `index.html` file for each test
-- you will be writing your CSS inside `index.html` and skeleton will be there
+#What is this module?
+This module is a whole series of challenges that assess your knowledge of HTML and CSS.
 
-Once you are finished with a test, you can save the status of your test by selecting 'Save' from the ![](.guides/img/rocket.png) Rocket menu item. If you load another challenge without saving, you will lose your work.
+If you can complete all of the tests below, right through to brutal, then it will be safe to assume that you know enough to be seriously impressive.
 
-##Approach
-You can use these tests not just to assess yourself but also to learn. As we have been pointing out in previous modules, coding involves an awful lot of Googling for stuff you don't know. 
+You should aim to conquer the easy and moderate tests (and feel free to use Google to help) to be at a solid level.
 
-##Purpose
-The purpose of this set of tests is not to test you on absolutely everything. If you can complete all of the tests below, right through to brutal, then it will be safe to assume that you know enough to be seriously impressive.
 
-However, you should really make sure that you can do the easy and moderate tests. The hard and brutal ones can be conquered over time.
+#How do I start?
+In the left hand side you will see three folders `easy`, `moderate` and `hard`. Inside each of these are further folders that contain the individual challenges.
+
+Select one of these challenge sub folders and you will see that files are provided as a suitable starting point. You should open these up and start working on them to meet the challenge.
+
+Open up the `README.md` file to get instructions and then you can start the challenge.
+
+The file will initially open up as markdown, so press the floating icon in the top right to view it nicely displayed.
+
+#Preview
+Whenever you want to run your code, simply press the 'Preview' menu button in the top.
+
+#Challenge Summary
+The following pages give a summary of the available challenges.
 
 ---
-title: Easy Challenges
+title: EASY
 files: []
 editable: true
 layout: ""
 
 ---
-1. [Colors I]() - this is really easy and is here to help you get the hang of the challenge mechanism.
-1. [Common HTML stuff]() - this just makes sure that you know the common HTML tags and how to style them.
-1. [Common HTML stuff II]() - more of the same but a tad more advanced tags.
-1. [Proper Colors II]() - this one is more serious and tests your knowledge of the different color value systems.
-1. [Gradients]() - let's see how well you can set up a few color gradients using CSS.
-1. [Simple list styling]() - a couple of different ways to style a list.
-1. [Padding]() - visually styling some HTML elements using padding.
-1. [Margins]() - visually styling some HTML elements using margins.
-1. [Borders]() - putting borders on things.
-1. [Fixed Width]() - make a fixed width design that is centered on the page.
+The challenges in the following sections are not too hard. Feel free to use Google to help you as you need, but try without to start with.
+
+
 ---
-title: Moderate Challenges
+title: "Color & Font Size"
+files: []
+editable: false
+layout: ""
+
+---
+#Loading the Challenge
+To load this challenge, press the link below. 
+
+[**LOAD CHALLENGE**]()
+
+#Challenge
+Your challenge is to get the output shown below by modifying `main.css`.
+
+![](.guides/easy/01-colors/result.png)
+
+You should incorporate the following
+
+>- define the font size (20px) using the body selector
+- for the <h1> color, use a color name, not a hex value
+- for the <p> color, use a hex color value (use Google to find out about hex color values in general)
+
+#Saving your work
+If you want to move to another challenge then you can save what you have done on the current challenge by clicking the link below.
+
+[**SAVE MY WORK**]()  cp ~/workspace/main.css ~/workspace/.guides/easy/01-colors && cp index.html ~/workspace/.guides/easy/01-colors
+
+To restore it, click this link
+
+[**RESTORE MY WORK**]() cp ~/workspace/main.css ~/workspace/.guides/easy/01-colors && cp ~/workspace/main.css ~/workspace/.guides/easy/01-colors
+
+---
+title: Inline Styles
+files: []
+editable: false
+layout: ""
+
+---
+#Loading the Challenge
+To load this challenge, press the link below. 
+
+[**LOAD CHALLENGE**]()
+
+#Challenge
+Your challenge is the same as the previous one - to get the output shown below - but this time, you should include your styles inside `index.html` without using `main.css`. Generally speaking, this is not good practice but is useful in simple situations like this.
+
+![](.guides/easy/02-inline/result.png)
+
+If you don't know how to do this yet, and it was not covered in our prior modules, then Google it. You'll see that you need to include the <style> tag.
+
+#Saving your work
+If you want to move to another challenge then you can save what you have done on the current challenge by clicking the link below.
+
+[**SAVE MY WORK**]()  cp ~/workspace/main.css ~/workspace/.guides/easy/02-inline && cp index.html ~/workspace/.guides/easy/02-inline
+
+To restore it, click this link
+
+[**RESTORE MY WORK**]() cp  ~/workspace/.guides/easy/02-inline ~/workspace/main.css && cp ~/workspace/.guides/easy/02-inline ~/workspace/main.css
+
+
+
+---
+title: Lists
+files: []
+editable: false
+layout: ""
+
+---
+#Loading the Challenge
+To load this challenge, press the link below. 
+
+[**LOAD CHALLENGE**]()
+
+#Challenge
+You need to create the output you see below. You start out with the simple `index.html` provided and you need to add your own HTML list elements into it.
+
+You then edit `main.css` to create the desired output styles
+
+- the bullet point list has **square** bullets, not the default round ones
+- the numbered list has a larger than normal line spacing
+
+
+![](.guides/easy/03-list/result.png)
+
+If you don't know how to create lists, it's easy, just Google it.
+
+#Saving your work
+If you want to move to another challenge then you can save what you have done on the current challenge by clicking the link below.
+
+[**SAVE MY WORK**]()  cp ~/workspace/main.css ~/workspace/.guides/easy/02-inline && cp index.html ~/workspace/.guides/easy/02-inline
+
+To restore it, click this link
+
+[**RESTORE MY WORK**]() cp  ~/workspace/.guides/easy/02-inline ~/workspace/main.css && cp ~/workspace/.guides/easy/02-inline ~/workspace/main.css
+
+
+
+---
+title: Link CSS files
+files: []
+editable: false
+layout: ""
+
+---
+#Loading the Challenge
+To load this challenge, press the link below. 
+
+[**LOAD CHALLENGE**]()
+
+#Challenge
+You need to create the same output as the previous challenge with the 2 lists. However, rather than having all your CSS in one single `main.css` file, you need to create two CSS files.
+
+![](.guides/easy/04-linkcss/result.png)
+
+- create 2 CSS files (you can name them any way you like)
+- inside the first CSS file, style the <ul>
+ unordered list
+- inside the second CSS file, style the <ol> ordered list
+- add the 2 elements into your `index.html` file that links each of these files
+
+To save you time, you can copy and paste the following code into your new CSS files
+
+```css
+ul {
+  list-style-type: square;
+}
+```
+
+```css
+ol {
+  line-height: 2em;
+}
+```
+
+#Saving your work
+If you want to move to another challenge then you can save what you have done on the current challenge by clicking the link below.
+
+[**SAVE MY WORK**]()  cp ~/workspace/main.css ~/workspace/.guides/easy/02-inline && cp index.html ~/workspace/.guides/easy/02-inline
+
+To restore it, click this link
+
+[**RESTORE MY WORK**]() cp  ~/workspace/.guides/easy/02-inline ~/workspace/main.css && cp ~/workspace/.guides/easy/02-inline ~/workspace/main.css
+
+
+
+---
+title: "Position a <div>"
+files: []
+editable: false
+layout: ""
+
+---
+
+---
+title: MODERATE
 files: []
 editable: true
 layout: ""
@@ -96,7 +252,31 @@ layout: ""
 1. Web Font
 1. Font Awesome Icons
 ---
-title: Hard Challenges
+title: "50:50 panels"
+files: []
+editable: false
+layout: ""
+
+---
+
+---
+title: "Fully clickable <div>"
+files: []
+editable: false
+layout: ""
+
+---
+
+---
+title: "Floating <div>s"
+files: []
+editable: false
+layout: ""
+
+---
+
+---
+title: HARD
 files: []
 editable: false
 layout: ""
